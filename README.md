@@ -1,10 +1,11 @@
-Hello World
-
 # CLIScraperProject
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/CLI_Scraper_Project`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem is being developed to scrape data from an Etsy page to aid in tracking
+the retail value of the Etsy page owner's inventory.  The scraping function will
+store item name and retail price in an instance of class InventoryItem.  The CLI
+will list item name, retail value per unit, in-stock quantity, and total retail
+value for each item sold on the Etsy page along with total inventory retail value.  
+The in-stock quantity will be added by the user.
 
 ## Installation
 

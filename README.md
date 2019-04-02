@@ -4,7 +4,7 @@ This gem is being developed to scrape data from an Etsy page to aid in tracking
 the retail value of the Etsy page owner's inventory.  The scraping function will
 store item name and retail price in an instance of class InventoryItem.  The CLI
 will list item name, retail value per unit, in-stock quantity, and total retail
-value for each item sold on the Etsy page along with total inventory retail value.  
+value for each item sold on the Etsy page along with total inventory retail value.
 The in-stock quantity will be added by the user.
 
 ## Installation
@@ -25,7 +25,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Follow the prompts to add or remove items from inventory.  The total retail value
+will update automatically.
 
 ## Development
 

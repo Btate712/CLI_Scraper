@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "CLI_Scraper_Project/version"
+require "CLI_Scraper/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "CLI_Scraper_Project"
-  spec.version       = CLIScraperProject::VERSION
+  spec.name          = "CLI_Scraper"
+  spec.version       = CLIScraper:VERSION
   spec.authors       = ["'Robert Tate'"]
   spec.email         = ["'btate712@gmail.com'"]
 
